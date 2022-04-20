@@ -1,0 +1,123 @@
+body{
+    background-image:url("https://images.pexels.com/photos/3801347/pexels-photo-3801347.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+    margin: 30%;
+    margin-top:5%;
+    margin-bottom:5%;
+    display: flex;
+}
+.form{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight:300;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 120%;
+
+}
+
+.tophead{
+    text-align: center;
+    padding:2px;
+}
+.name,
+.email,
+.number,
+.message{
+    text-justify: auto;
+    padding:6px;
+    color: rgba(19, 18, 18, 0.76);
+}
+.contactdetail{
+    background-image:url("https://images.pexels.com/photos/3801347/pexels-photo-3801347.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    width: 38%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.contactdetail h4{
+    margin-bottom: 30%;
+    color: rgb(255, 255, 255);
+}
+.contactdetail h4 a{
+    color: rgb(255, 255, 255);
+}
+.contactdetail h4 a:hover{
+    color: blueviolet;
+}
+.locationlogo,
+.contactno,
+.mailid{
+    width: 2rem;
+    border-radius: 100%;
+}
+.head{
+    align-content: center;
+    padding:5% ;
+    padding-top: 50%;
+
+}
+#first_name,
+#last_name,
+#e_mail,
+#pno,
+#message{
+ padding: 4px;
+ margin: 2px;
+ border-radius: 4px;
+ width: 90%;
+}
+.submit,
+.clear{
+    background-color:rgb(99, 99, 251);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    margin: 10px;
+    margin-top: 0%;
+    margin-bottom: 8px;
+    height: 30px;
+    width: 75px;
+    border-color: rgb(68, 67, 67);
+    border-radius: 8px;
+}
+.submit{
+    float: right;
+}
+.clear:hover{
+    background-color: blueviolet;
+}
+.submit:hover{
+    background-color: chartreuse;
+}
+.bottomcontact{
+    display: none;
+}
+
+@media (max-width:979px){
+    .main{
+        display: inline;
+    }
+    .form{
+        width: 90%;
+        margin:5%;
+        border-radius: 20px;
+    }
+    .contactdetail{
+        display: none;
+    }
+    .bottomcontact{
+        display: inline;
+        text-align: center;
+        margin: 10px;
+    }
+}
+    

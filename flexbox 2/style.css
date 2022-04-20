@@ -1,0 +1,41 @@
+body{
+    font-size:x-large;
+    color: cornsilk;
+}
+div{
+    box-sizing: border-box;
+}
+.flex-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flexitem{
+height: 1000px;
+}
+#item1{
+    padding:10px;
+    width:20%;
+    align-self: stretch;
+    background-color: coral;
+}
+#item2{
+    width:80%;
+}
+#item21{
+    padding:10px;
+    height:20% ;
+    background-color: darkturquoise;
+}
+#item22{
+    padding:10px;
+    height: 60%;
+    background-color: hotpink;
+}
+#item23{
+    padding:10px;
+    background-color: lawngreen;
+    height: 20%;
+}

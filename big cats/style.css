@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(246, 168, 140);
+}
+.flex_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+.flex_item{
+    border-style: solid;
+    border-color:rgb(7, 7, 7) ;
+    width: 300px;
+    padding: 10px;
+    margin: 55px;
+    background-color:coral;
+}
+img{
+    width: 100%;
+}
+button{
+    background-color: rgb(68, 68, 68);
+    color: honeydew;
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+}

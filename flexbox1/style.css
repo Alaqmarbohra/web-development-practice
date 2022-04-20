@@ -1,0 +1,85 @@
+body{
+    color: white;
+    font-size:large;
+}
+.flex-container1,
+.flex-container2,
+.flex-container3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.flextype1{
+    background-color: rgb(214, 100, 54);
+    padding: 8px;
+    border-width: 4px;
+    border-radius: 6px;
+    margin:5px;
+    flex: 2 2 200px;
+    height: 130px;
+    align-self: center;
+
+}
+.flextype2{
+    background-color: rgb(214, 100, 54);
+    padding: 8px;
+    border-width: 4px;
+    border-radius: 6px;
+    margin:5px;
+    flex: 2 2 100px;
+    height: 20px;
+    align-self: center;
+
+}
+.flextype3{
+    background-color: rgb(214, 100, 54);
+    padding: 8px;
+    border-width: 4px;
+    border-radius: 6px;
+    margin:5px;
+    flex: 2 2 80px;
+    height: 20px;
+    align-self: center;
+
+}
+.subflex1,
+.subflex2,
+.subflex3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.flexitem1{
+    color: rgb(214, 100, 54);
+    background-color:whitesmoke;
+    padding:3px;
+    border-width:2px;
+    border-radius:4px;
+    margin: 2px;
+    flex: 2 2 50px;
+    height: 35px;
+    align-self: center;
+}
+.flexitem2{
+    color: rgb(214, 100, 54);
+    background-color:whitesmoke;
+    padding:3px;
+    border-width:2px;
+    border-radius:4px;
+    margin: 2px;
+    flex: 2 2 30px;
+    height:20px;
+    align-self: center;
+}
+.flexitem3{
+    color: rgb(214, 100, 54);
+    background-color:whitesmoke;
+    padding:3px;
+    border-width:2px;
+    border-radius:4px;
+    margin: 2px;
+    flex: 2 2 25px;
+    height: 20px;
+    align-self: center;
+}

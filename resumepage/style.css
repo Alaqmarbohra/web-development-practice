@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    margin: 0%;
+    display: flex;
+    background-color: #4169E1;
+    background-image:linear-gradient(45deg,#4169E1 0% 40%,white 40% 100%);
+    color: white;
+    height:100px;
+}
+h1{
+    padding:20px;
+    font-size:40px;
+}
+#about{
+    background-color: #4169E1;
+    color:white;
+    padding: 30px;
+    text-align: justify;
+    font-size: medium;
+}
+#ed,#skill,#pr,#hob{margin: 3px;
+    padding: 5px;
+    border: 2px;
+    border-radius: 4px;
+    border-style:solid;
+    border-color:#4169E1;
+}
+#con{
+    margin: 5px;
+    margin-left: 62%;
+    color: #4169E1;
+}
+.hed{
+    text-align: left;
+}

@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    position:fixed;
+    display: flex;
+    top: 0%;
+    width: 100%;
+    height:6vw;
+    background-image:linear-gradient(45deg,#84c011 0% 30%,white 30% 100%);
+}
+#logo{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin:10px;
+}
+#brandname{
+    position: fixed;
+    left: 3%;
+    margin: 15px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#nav_bar{
+    position:fixed;
+    right: 25%;
+    font-size:x-large;
+    top: 15px;
+}
+#nav_bar a{
+    margin: 15px;
+    color:#84c011;
+    text-decoration: none;
+}
+#search{
+    position:fixed;
+    right: 7%;
+    font-size:large;
+    top: 14px;
+}
+#search_btn{
+    position:fixed;
+    right: 1%;
+    font-size:large;
+    top: 15px;
+    height:24px ;
+    width:80px ;
+}
+#about_us{
+    background-color: #84c011;
+    color:white;
+    margin-top: 60px;
+    padding: 20px;
+    font-size: medium;
+    text-align: justify;
+}
+#about_us h3{
+    font-size:x-large;
+    padding-bottom: 10px;
+}
+#body_ele{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 100px;
+}
+.element{
+    margin: 20px;
+    background-color: #84c011;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+.element img{
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    background-color: #84c011;
+    height:200px ;
+    width: 100%;
+}
+#copyright{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px 2px;
+    align-self: center;   
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    align-self: center;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
